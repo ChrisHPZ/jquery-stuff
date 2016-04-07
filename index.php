@@ -3,18 +3,28 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<meta name="viewport" content="width=device-width; initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="style.css" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+	<script src="http://malsup.github.io/min/jquery.cycle2.min.js"/></script>
+	<script src="js/scripts.js"></script>	
 </head>
 <body>
 		
-		<div id="container">			
+		<div id="container">
 		
 		<div class="debug">
 			<span></span>
 			<span class="firstname-debug"></span>
 		</div><!-- end div debug -->
-		
+				
+			<div class="cycle-slideshow">
+				<img src="images/sincelia-one.jpg" />
+				<img src="images/sincelia-two.jpg" />
+				<img src="images/sincelia-three.jpg" />
+			</div><!-- end div cycle-slideshow -->
+
+		<div class="clear"></div>
+
 			<div id="header">								
 				
 				<div class="dimensions-thirty-three">
@@ -54,6 +64,4 @@
 		</div><!-- end div container -->
 		
 </body>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-	<script src="js/scripts.js"></script>
 </html>

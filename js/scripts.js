@@ -1,6 +1,7 @@
 /* jQuery */
 $(document).ready(function(){
 	inputHover();
+		
 	// ids();
 	//selectors();
 	// paragraphFade();
@@ -9,6 +10,8 @@ $(document).ready(function(){
 	// messageFadeIn();
 	// documentReady();
 });
+
+
 
 function inputHover() {
 	var input = $("input[type=text]");
