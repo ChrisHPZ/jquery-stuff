@@ -14,8 +14,8 @@
 		<div id="container">
 		
 		<div class="debug">
-			<span></span>
-			<span class="firstname-debug"></span>
+			<span>Git Clone Link: https://github.com/ChrisHPZ/jquery-stuff.git</span>
+			
 		</div><!-- end div debug -->
 				
 			<div class="mockup-cycle-slideshow">
