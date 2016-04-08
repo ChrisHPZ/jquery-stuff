@@ -3,10 +3,12 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Killing Time w/ jQuery</title>
 	<link rel="stylesheet" type="text/css" href="style.css" />
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 	<script src="http://malsup.github.io/min/jquery.cycle2.min.js"/></script>
+	<script src="http://malsup.github.io/min/jquery.cycle2.swipe.min.js"></script>
 	<script src="http://malsup.github.io/min/jquery.cycle2.flip.min.js"></script>
 	<script src="js/scripts.js"></script>	
 </head>

@@ -16,6 +16,8 @@ function mySlider() {
 		speed:600,
 		fx:'flipHorz',
 		loader:true,
+		swipe:true,
+		swipeFx:'flipHorz',
 		next:$(".mockup-cycle-slideshow #slider-next"),
 		prev:$(".mockup-cycle-slideshow #slider-prev"),
 		timeout:7000
