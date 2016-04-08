@@ -17,6 +17,7 @@ function mySlider() {
 		fx:'flipHorz',
 		loader:true,
 		swipe:true,
+		pauseOnHover:true,
 		swipeFx:'flipHorz',
 		next:$(".mockup-cycle-slideshow #slider-next"),
 		prev:$(".mockup-cycle-slideshow #slider-prev"),
