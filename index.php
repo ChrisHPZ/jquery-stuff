@@ -6,6 +6,7 @@
 	<link rel="stylesheet" type="text/css" href="style.css" />
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 	<script src="http://malsup.github.io/min/jquery.cycle2.min.js"/></script>
+	<script src="http://malsup.github.io/min/jquery.cycle2.flip.min.js"></script>
 	<script src="js/scripts.js"></script>	
 </head>
 <body>
@@ -17,10 +18,12 @@
 			<span class="firstname-debug"></span>
 		</div><!-- end div debug -->
 				
-			<div class="cycle-slideshow">
+			<div class="mockup-cycle-slideshow">
 				<img src="images/sincelia-one.jpg" />
 				<img src="images/sincelia-two.jpg" />
 				<img src="images/sincelia-three.jpg" />
+				<div id="slider-prev">&lt;</div>
+				<div id="slider-next">&gt;</div>
 			</div><!-- end div cycle-slideshow -->
 
 		<div class="clear"></div>

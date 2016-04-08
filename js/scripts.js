@@ -1,7 +1,7 @@
 /* jQuery */
 $(document).ready(function(){
 	inputHover();
-		
+	mySlider();		
 	// ids();
 	//selectors();
 	// paragraphFade();
@@ -11,6 +11,16 @@ $(document).ready(function(){
 	// documentReady();
 });
 
+function mySlider() {
+	$(".mockup-cycle-slideshow").cycle({
+		speed:600,
+		fx:'flipHorz',
+		loader:true,
+		next:$(".mockup-cycle-slideshow #slider-next"),
+		prev:$(".mockup-cycle-slideshow #slider-prev"),
+		timeout:7000
+	});
+}
 
 
 function inputHover() {
