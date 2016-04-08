@@ -228,8 +228,6 @@ html {
   width: 65%;
   margin: 0 auto;
   position: relative;
-  -webkit-perspective: 1000;
-          perspective: 1000;
   -webkit-transform-style: preserve-3d;
           transform-style: preserve-3d;
 }

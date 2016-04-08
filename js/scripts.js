@@ -13,7 +13,7 @@ $(document).ready(function(){
 
 function mySlider() {
 	$(".mockup-cycle-slideshow").cycle({
-		speed:600,
+		speed:5000,
 		fx:'flipHorz',
 		loader:true,
 		swipe:true,
