@@ -13,15 +13,15 @@ $(document).ready(function(){
 
 function mySlider() {
 	$(".mockup-cycle-slideshow").cycle({
-		speed:5000,
-		fx:'flipHorz',
+		speed:2500,
+		fx:'tileBlind',
 		loader:true,
 		swipe:true,
 		pauseOnHover:true,
-		swipeFx:'flipHorz',
+		swipeFx:'tileBlind',
 		next:$(".mockup-cycle-slideshow #slider-next"),
 		prev:$(".mockup-cycle-slideshow #slider-prev"),
-		timeout:7000
+		timeout:5000
 	});
 }
 

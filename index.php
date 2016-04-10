@@ -10,6 +10,7 @@
 	<script src="http://malsup.github.io/min/jquery.cycle2.min.js"/></script>
 	<script src="http://malsup.github.io/min/jquery.cycle2.swipe.min.js"></script>
 	<script src="http://malsup.github.io/min/jquery.cycle2.flip.min.js"></script>
+	<script src="http://malsup.github.io/jquery.cycle2.tile.js"></script>
 	<script src="js/scripts.js"></script>	
 </head>
 <body>
