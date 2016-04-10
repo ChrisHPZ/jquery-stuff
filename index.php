@@ -17,6 +17,22 @@
 		
 		<div id="container">
 		
+			<div id="abs-block-one">
+				<img src="images/biohazard.png" />
+			</div>
+			
+			<div id="abs-block-two">
+				<img src="images/black-symbol.jpg" />
+			</div>
+			
+			<div id="abs-block-three">
+				<img src="images/ehime.svg" />
+			</div>
+			
+			<div id="abs-block-four">
+				<img src="images/extinction.jpg" />
+			</div>			
+			
 		<div class="debug">
 			<span>Git Clone Link: https://github.com/ChrisHPZ/jquery-stuff.git</span>
 			
@@ -67,7 +83,7 @@
 					<a href="http://cdemarco.net">CRD Designs</a>
 				</div>
 			</div><!-- end div header -->		
-								
+										
 		</div><!-- end div container -->
 		
 </body>
