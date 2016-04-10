@@ -83,6 +83,18 @@
 					<a href="http://cdemarco.net">CRD Designs</a>
 				</div>
 			</div><!-- end div header -->		
+			
+			<div class="clear"></div>
+			
+			<div class="card-container">
+				
+				<?php for( $i = 0; $i <= 8; $i++ ) : ?>
+					
+					<div class="card">FlexBox Card Number <?php echo $i; ?></div>
+					
+				<?php endfor; ?>
+				
+			</div><!-- end div card-container -->
 										
 		</div><!-- end div container -->
 		

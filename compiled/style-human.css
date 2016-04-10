@@ -305,3 +305,25 @@ html {
 .mockup-cycle-slideshow #slider-next {
   right: 0;
 }
+
+.card-container {
+  width: 65%;
+  margin: 50px auto;
+  display: block;
+}
+
+.card-container .card {
+  width: 33%;
+  height: 200px;
+  float: left;
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  margin: 1px;
+}
+
+.card-container .card:nth-child(3n+3) {
+  clear: right;
+}
